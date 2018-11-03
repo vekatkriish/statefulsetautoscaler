@@ -4,7 +4,7 @@ import (
 	"context"
 	"runtime"
 
-	stub "github.com/banzaicloud/hpa-operator/pkg/stub"
+	stub "github.com/vekatkriish/statefulsetautoscaler/pkg/stub"
 	sdk "github.com/operator-framework/operator-sdk/pkg/sdk"
 	sdkVersion "github.com/operator-framework/operator-sdk/version"
 
