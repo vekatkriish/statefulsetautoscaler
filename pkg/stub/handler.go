@@ -29,7 +29,7 @@ const targetAverageValue = "targetAverageValue"
 const annotationDomainSeparator = "/"
 const annotationSubDomainSeparator = "."
 
-const annotationRegExpString = "(" + cpuAnnotationPrefix + "|" + memoryAnnotationPrefix + "|" + podAnnotationPrefix + ")?(\\.)?hpa\\.autoscaling\\.banzaicloud\\.io\\/[a-zA-Z]+"
+const annotationRegExpString = "(" + cpuAnnotationPrefix + "|" + memoryAnnotationPrefix + "|" + podAnnotationPrefix + ")?(\\.)?hpa\\.autoscaling\\.jdmeshcloud\\.io\\/[a-zA-Z]+"
 
 func NewHandler() sdk.Handler {
 	r, _ := regexp.Compile(annotationRegExpString)

@@ -1,3 +1,3 @@
 // +k8s:deepcopy-gen=package
-// +groupName=banzaicloud.com
+// +groupName=jdmeshcloud.com
 package v1alpha1
