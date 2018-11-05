@@ -60,6 +60,6 @@ tag-latest: ## Generate container `{version}` tag
 tag-version: ## Generate container `latest` tag
 	@echo 'create tag $(VERSION)'
 	docker tag $(APP_NAME) $(DOCKER_REPO)/$(APP_NAME):$(VERSION)
-release: build-nc publish
+release: build build-docker-nc publish
 
 .PHONY: build get install run watch start stop restart clean
