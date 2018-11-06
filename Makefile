@@ -4,7 +4,7 @@ GOFILES=$(wildcard *.go)
 GONAME=$(shell basename "$(PWD)")
 PID=/tmp/go-$(GONAME).pid
 APP_NAME=statefulset-operator
-DOCKER_REPO=registry.rome.support
+DOCKER_REPO=<dockerregistry>
 VERSION=$(shell ./version.sh)
 
 all: watch
